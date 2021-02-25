@@ -1,0 +1,23 @@
+.singleCocktail {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+.singleCocktail:hover {
+    border: 1px solid #777;
+  }
+  
+.singleCocktail img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
