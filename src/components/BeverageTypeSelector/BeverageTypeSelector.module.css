@@ -1,0 +1,9 @@
+
+.BeverageTypeSelector select {
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    padding-left: 10px;
+}

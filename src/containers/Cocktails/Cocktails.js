@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import Aux from '../../hoc/ReacrAux/ReactAux';
+import Aux from '../../hoc/ReactAux/ReactAux';
 import BeverageTypeSelector from '../../components/BeverageTypeSelector/BevereageTypeSelector'
 import CocktailList from '../../components/CocktailList/CocktailList'
 
@@ -20,7 +20,7 @@ class Cocktails extends Component {
     }
 
     render() {
-        let beverage = <p>Beverages</p>
+        let beverage = null
         if (this.state.beverageTypeSelected) {
             beverage = <CocktailList type={this.state.selectedBeverageType}/>
         }

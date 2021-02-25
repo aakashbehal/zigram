@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
 
-import Aux from '../ReacrAux/ReactAux';
+import style from './Layout.module.css'
 
 class Layout extends Component {
 
     render() {
         return (
-            <Aux>
-                <header>Cocktails</header>
-                <main style={{marginTop:'20px', contentVisibility: 'auto'}}>
+            <div >
+                <header style={{
+                    background: "darkcyan",
+                    padding: '20px',
+                    textAlign: "center",
+                    fontFamily: "monospace",
+                    fontWeight: 800,
+                    fontSize: '20px'
+                }}>Cocktails</header>
+                <main className={style.layout} style={{marginTop:'20px', contentVisibility: 'auto'}}>
                     {this.props.children}
                 </main>
-            </Aux>
+            </div>
         )
     }
 }
