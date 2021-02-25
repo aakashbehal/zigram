@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Aux from '../../hoc/Aux/Aux'
+import Aux from '../../hoc/ReacrAux/ReactAux'
 
 const beverageTypeSelector = (props) => {
     return (

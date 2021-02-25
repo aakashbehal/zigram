@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import Aux from '../../hoc/Aux/Aux';
+import Aux from '../../hoc/ReacrAux/ReactAux';
 import BeverageTypeSelector from '../../components/BeverageTypeSelector/BevereageTypeSelector'
 import CocktailList from '../../components/CocktailList/CocktailList'
 
