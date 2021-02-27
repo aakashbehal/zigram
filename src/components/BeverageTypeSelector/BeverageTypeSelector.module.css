@@ -7,3 +7,20 @@
     margin-right: 20px;
     padding-left: 10px;
 }
+
+.filterContainer {
+    display: flex;
+}
+.filterContainer label {
+    margin-bottom: 5px;
+    display: block;
+}
+.filterContainer select {
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .filterContainer {
+        display: block;
+    }
+}

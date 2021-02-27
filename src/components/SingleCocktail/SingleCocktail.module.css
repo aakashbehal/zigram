@@ -3,6 +3,7 @@
     border: 1px solid #ccc;
     float: left;
     width: 29vw;
+    min-height: 100px;
   }
 
 @media (max-width: 715px) {
